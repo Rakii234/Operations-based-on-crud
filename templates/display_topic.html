@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+    
+</head>
+<body>
+    <center>
+        <table border="3px">TOPIC TABLE
+            <tr>
+                <th>topic_name</th>
+            </tr>
+            {% for TO in topics %}
+                <tr>
+                    <td>{{TO.topic_name}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </center>
+</body>
+</html>

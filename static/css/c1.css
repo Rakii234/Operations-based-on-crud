@@ -1,0 +1,7 @@
+body{
+    background-color: lightgrey;
+}
+table,th,td{
+    border: 2px dotted black;
+    border-collapse: collapse;
+}
