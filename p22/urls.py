@@ -22,4 +22,7 @@ urlpatterns = [
     path('display_topic/',display_topic,name='display_topic'),
     path('display_webpage/',display_webpage,name='display_webpage'),
     path('display_ac/',display_ac,name='display_ac'),
+    path('up_webpage/',up_webpage,name='up_webpage'),
+    path('de_webpage/',de_webpage,name='de_webpage'),
+
 ]

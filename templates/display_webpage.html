@@ -16,12 +16,14 @@
                 <th>topic_name</th>
                 <th>name</th>
                 <th>url</th>
+                <th>email</th>
             </tr>
             {% for WO in webpages %}
             <tr id="b">
                 <td>{{WO.topic_name}}</td>
                 <td>{{WO.name}}</td>
                 <td>{{WO.url}}</td>
+                <td>{{WO.email}}</td>
             </tr>
             {% endfor %}
         </table>
